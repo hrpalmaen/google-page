@@ -30,17 +30,25 @@ body {
 .main {
     flex-wrap: wrap;
 }
+.main-img {
+    margin-top: min(22%);
+}
 .main-img img {
-    top: 10px;
+    max-height: 92px;
+    position: relative;
 }
 /*  buttons */
 .btn-action {
-    height: 37px;
+    height: 50px;
+    font-size: 14px;
     border: 1px solid var(--background-btn);
     background-color: var(--background-btn);
     color: #3c4043;
     padding: 0 12px;
     border-radius: 7px;
+}
+.main-button {
+    margin: 11px 4px;
 }
 .main-button button:nth-child(1) {
     margin-right: var(--margin-button);
@@ -48,25 +56,14 @@ body {
 .btn-action:hover {
     box-shadow: 1px 1px 1px rgb(0 0 0 / 10%);
 }
-.icon-search {
-    left: 40px;
-    opacity: 0.7;
-}
-.icon-microfone {
-    right: 40px;
-}
-.icon-search, .icon-microfone {
-    top: 20%;
-    height: 26px;
-}
 
 /* input */
 .main-input {
-    padding: 40px 0;
+    padding: 20px;
 }
 .input-search {
     width: 620px;
-    height: 40px;
+    height: 45px;
 }
 .input-search input {
     width: min(100%);
@@ -81,6 +78,17 @@ body {
 }
 .input-search input {
     padding: 0 50px;
+}
+.icon-search {
+    left: 40px;
+    opacity: 0.7;
+}
+.icon-microfone {
+    right: 40px;
+}
+.icon-search, .icon-microfone {
+    top: 20%;
+    height: 26px;
 }
 
 /* text */
